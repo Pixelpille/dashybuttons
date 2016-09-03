@@ -1,7 +1,7 @@
 #!/usr/bin/python2 
 
 from scapy.all import *
-import os, time
+import os
 
 def arp_display(pkt):
   if pkt.haslayer(ARP):        
